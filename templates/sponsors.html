@@ -1,0 +1,50 @@
+{% extends "base.html" %}
+
+{% block content %}
+<div class="col-8 p-3 d-flex flex-column align-items-center">
+    <img class="img-fluid" src="{{ url_for('static', filename='images/finalchesslogo.png') }}" alt="UPenn Chess Club"
+        width="600px" height="auto">
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-9 p-5" style="background-color: white;">
+                <h2>Sponsors</h2>
+                <p>
+                    A huge thanks to all of our sponsors who make all of our events possible!
+                </p>
+                <h4>King</h4>
+                <div class="row">
+                    <div class="col-6">
+                        <p>Flow Traders</p>
+                    </div>
+                </div>
+                <h4>Rook</h4>
+                <div class="row">
+                    <div class="col-6">
+                        <p>Akuna Capital</p>
+                    </div>
+                    <div class="col-6">
+                        <p>Citadel</p>
+                    </div>
+                </div>
+                <h4>Knight</h4>
+                <div class="row">
+                    <div class="col-6">
+                        <p>Jane Street</p>
+                    </div>
+                    <div class="col-6">
+                        <p>SIG</p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-6">
+                        <p>DRW</p>
+                    </div>
+                    <div class="col-6">
+                        <p>SAC</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}

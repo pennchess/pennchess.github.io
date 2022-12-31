@@ -1,0 +1,46 @@
+{% extends "base.html" %}
+
+{% block content %}
+<div class="col-8 p-3 d-flex flex-column align-items-center">
+    <img class="img-fluid" src="{{ url_for('static', filename='images/finalchesslogo.png') }}" alt="UPenn Chess Club"
+        width="600px" height="auto">
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-9 p-5 larger-text" style="background-color: white;">
+                <h2>Current Executive Board</h2>
+                <p>
+                    William Li '23 - President
+                </p>
+                <p>
+                    Ria Dawar '23
+                </p>
+                <p>
+                    Justin Dong '23
+                </p>
+                <p>
+                    Joanna Liu '24
+                </p>
+                <h3>Past Presidents</h3>
+                <p>
+                    Daniel Draganoff '22 (2020-2022)
+                </p>
+                <p>
+                    Simone Liao '20 (2019)
+                </p>
+                <p>
+                    Akshay Malhotra '20 (2018 - 2019)
+                </p>
+                <p>
+                    Jonathan Chen '19 (2019)
+                </p>
+                <p>
+                    Brian Luo '19 (2017 - 2018)
+                </p>
+                <p>
+                    Nicole Tsoi '17 (2016 - 2017)
+                </p>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}

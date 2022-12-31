@@ -1,0 +1,25 @@
+{% extends "base.html" %}
+
+{% block content %}
+<div class="col-8 p-3 d-flex flex-column align-items-center">
+    <img class="img-fluid" src="{{ url_for('static', filename='images/finalchesslogo.png') }}" alt="UPenn Chess Club"
+        width="600px" height="auto">
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-9 p-5" style="background-color: white;">
+                <h2>Contact</h2>
+                <p>
+                    Please feel free to reach out via email at <a href="mailto:upennchessclub@gmail.com">upennchessclub@gmail.com</a> in case of any questions about
+                    our organization or general inquiries.
+                </p>
+                <p>
+                    Note to prospective students: We have received a number of inquiries over the past year, and
+                    generally we're happy to chat and help answer any questions you might have. Unfortunately, however,
+                    we have absolutely no sway over the admissions process, so please keep this in mind in case you
+                    decide to reach out.
+                </p>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}

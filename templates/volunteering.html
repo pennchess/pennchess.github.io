@@ -1,0 +1,37 @@
+{% extends "base.html" %}
+
+{% block content %}
+<div class="col-8 p-3 d-flex flex-column align-items-center">
+    <img class="img-fluid" src="{{ url_for('static', filename='images/finalchesslogo.png') }}" alt="UPenn Chess Club"
+        width="600px" height="auto">
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-9 p-5 larger-text" style="background-color: white;">
+                <h2>Volunteering</h2>
+                <p>
+                    In Spring 2019, we launched the UPenn Chess Initiative for Talented Youth (UPCITY), which is a
+                    program to offer chess education and improvement opportunities to talented youth in the Philadelphia
+                    community. Every Thursday on our campus from 6 to 7:30 in the evenings, we host workshops for
+                    players of all levels and age groups who show interest and promise to improve their game by working
+                    with some of the finest players in the region.
+                </p>
+                <p>
+                    In addition, we have developed partnerships with the Free Library of Philadelphia in conjunction
+                    with ASAP to provide after-school instruction to students at the Walnut Street West Library on
+                    Wednesdays 5:45-7.
+                </p>
+                <p>
+                    Volunteering and inspiring the next generation of chess students, from beginner to more advanced, is
+                    an incredibly rewarding experience, and we encourage anyone who has interest in chess to at least
+                    try to come to one volunteering session. There are students of all levels, so there will definitely
+                    be ways to contribute no matter your skill level!
+                </p>
+                <p>
+                    If you have any questions or want to start volunteering, feel free to contact us at
+                    <a href="mailto:upennchessclub@gmail.com">upennchessclub@gmail.com</a>.
+                </p>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}

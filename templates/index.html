@@ -1,0 +1,117 @@
+<!-- not used, see base.html -->
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>UPenn Chess Club</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+
+<body>
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-3 p-3 d-flex flex-column align-items-center left-column" style="background-color: #891818;">
+                <div class="col-8 d-flex flex-column align-items-center text-center gap-2">
+                    <!-- <div class="col-8"> -->
+                    <img class="m-3" src="{{ url_for('static', filename='images/penn_shield.png') }}"
+                        alt="University of Pennsylvania" width="100px" height="auto">
+                    <hr>
+                    <a href="/">UPenn Chess Club</a>
+                    <a href="/board">Executive Board</a>
+                    <a href="/team">Team</a>
+                    <a href="/calendar">Calendar</a>
+                    <a href="/volunteering">Volunteering</a>
+                    <a href="/">Facebook Group</a>
+                    <a href="/">Chess.com Group</a>
+                    <a href="/club-games">Club Games</a>
+                    <a href="/sponsors">Sponsors</a>
+                    <a href="/contact">Contact</a>
+                    <hr>
+                    <p>
+                        JOIN US
+                    </p>
+                    <p>
+                        We are always looking for new members. There is no restriction whatsoever for joining. Feel free
+                        to
+                        show up to any of our events or contact us if you have any questions.
+                    </p>
+                    <p>
+                        Email:
+                    </p>
+                    <a href="mailto:upennchessclub@gmail.com">upennchessclub@gmail.com</a>
+                </div>
+            </div>
+            <div class="col-8 p-3 d-flex flex-column align-items-center">
+                <img class="img-fluid" src="{{ url_for('static', filename='images/finalchesslogo.png') }}"
+                    alt="UPenn Chess Club" width="600px" height="auto">
+                <div class="row justify-content-center">
+                    <div class="col-9 p-5" style="background-color: white;">
+                        <h1>Welcome</h1>
+                        <p>
+                            “The beauty of chess is it can be whatever you want it to be. It transcends language, age,
+                            race,
+                            religion, politics, gender, and socioeconomic background. Whatever your circumstances,
+                            anyone
+                            can enjoy a good fight to the death over the chess board.”
+                        </p>
+                        <p>
+                            -Simon Williams
+                        </p>
+                        <p>
+                            UPenn Chess Club invites you to our community! Here you will find all kinds of people,
+                            ranging
+                            from the quantitative trader to the dedicated volunteer at West Philly. Ultimately, we all
+                            love
+                            this fun and intellectual game, and we wish to share it with the rest of the community.
+                        </p>
+                        <p>
+                            Whether you have played chess your whole life or have no idea how the pieces move, we
+                            encourage
+                            you to come to our meetings and events. Anyone is welcome, even non-Penn students.
+                        </p>
+                        <h3>Updates:</h3>
+                        <p>
+                            2021-22: We are back in person and ready to begin hosting in-person events once again! We
+                            will
+                            have weekly meetings every Wednesday at Houston Hall at 8pm. Keep up with our emails and
+                            Facebook group to stay updated!
+                        </p>
+                        <p>
+                            Check back for updates! We've got big things in store.
+                        </p>
+                        <h3>
+                            Information:
+                        </h3>
+                        <p>
+                            Our leadership team is listed on the <strong>Executive Board tab</strong>.
+                        </p>
+                        <p>
+                            All events will be updated under the <strong>Calendar tab</strong>.
+                        </p>
+                        <p>
+                            If you are interested in volunteering with students in the community, please visit the
+                            <strong>Volunteering tab</strong>.
+                        </p>
+                        <p>
+                            Finally, we are very fortunate to have great sponsors this year! Additional information can
+                            be
+                            found under the <strong>Sponsors tab</strong>.
+                        </p>
+                        <p>
+                            In case of any questions or inquiries, check out the <strong>Contact tab</strong>.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

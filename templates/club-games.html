@@ -1,0 +1,36 @@
+{% extends "base.html" %}
+
+{% block content %}
+<div class="col-8 p-3 d-flex flex-column align-items-center">
+    <img class="img-fluid" src="{{ url_for('static', filename='images/finalchesslogo.png') }}" alt="UPenn Chess Club"
+        width="600px" height="auto">
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-9 p-5 larger-text" style="background-color: white;">
+                <h2>Club Games</h2>
+                <p>Check out some games played at our club meetings!</p>
+                <p>Note: Games best viewed on desktop</p>
+                <h4>Consultation Game 1</h4>
+                <p>Date: Jan 28, 2017</p>
+                <p>White: Roman, Jeff, Nathan, Louis</p>
+                <p>Black: Vince, Nicole, Rohit, Amber, Jonathan</p>
+                <iframe src="https://lichess.org/embed/hfayLWGW?theme=auto&bg=auto" width=600 height=397
+                    frameborder=0></iframe>
+
+                <h4>Consultation Game 2</h4>
+                <p>Date: Feb 4, 2017</p>
+                <p>Note: This was a timed match, so both teams got low in the end.</p>
+                <iframe src="https://lichess.org/embed/4DtQTb3I?theme=auto&bg=auto" width=600 height=397
+                    frameborder=0></iframe>
+
+                <h4>Consultation Game 3</h4>
+                <p>Date: 3/17/2018</p>
+                <p>White: Brian, Cory, Larry</p>
+                <p>Black: Roman, Vinay, JiWhan, Jonathan</p>
+                <iframe src="https://lichess.org/embed/yT1ezFhv?theme=auto&bg=auto" width=600 height=397
+                    frameborder=0></iframe>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}
